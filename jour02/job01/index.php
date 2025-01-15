@@ -1,9 +1,11 @@
+
 <?php
 for ($number = 0; $number <= 1337; $number++) {
-    if ($number == 42) {
-        echo "<b><u>$number</u></b><br>";  // Gras et souligné pour 42.
-    } else {
-        echo $number . "<br>";  // Sinon, affiche le nombre normalement.
+    // Vérifie si le nombre doit être ignoré.
+    if ($number == 26 || $number == 37 || $number == 88 || $number == 1111) {
+        continue; // Passe au nombre suivant sans afficher celui-ci.
     }
+    // Affiche le nombre avec un retour à la ligne.
+    echo $number . "<br>";
 }
 ?>
