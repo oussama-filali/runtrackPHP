@@ -27,6 +27,11 @@
         } else {
             echo "<p>votre pire cauchemar</p>";
         }
+        // verifiier si l'utilisateur est oussama filali
+        if ($username === "oussama" && $password === "filali") {
+            echo "<p>je suis un homme libre</p>";
+        } 
+
     }
     ?>
 </body>
