@@ -36,6 +36,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <input type="text" id="prenom" name="prenom" required>
             <button type="submit" name="connexion">Connexion</button>
         </form>
-    <?php endif; ?>
+    <?php endif;
+     ?>
+
+        <a href="job05.php">Job suivant</a>
+        <br><br>    
+        <a href="job03.php">Job précédent</a>
 </body>
 </html>
